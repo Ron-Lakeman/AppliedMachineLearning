@@ -9,8 +9,7 @@ Simple TabPFN benchmark script for CoverType, HIGGS and HELOC.
 
 - Train files: contain features + label column.
 - Test files:
-    * may contain labels (e.g. your own split of the data), or
-    * may contain only features (Kaggle-style test set).
+    contain only features
 """
 
 from tabpfn import TabPFNClassifier
